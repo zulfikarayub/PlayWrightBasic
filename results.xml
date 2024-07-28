@@ -1,0 +1,38 @@
+<testsuites id="" name="" tests="4" failures="1" skipped="0" errors="0" time="24.194467">
+<testsuite name="TC_CheckOut.spec.js" timestamp="2024-07-28T00:35:21.030Z" hostname="Chrome" tests="1" failures="0" skipped="0" time="9.33" errors="0">
+<testcase name="Login as a standard user to complete the checkout workflow › Login to App as a standard user" classname="TC_CheckOut.spec.js" time="9.33">
+</testcase>
+</testsuite>
+<testsuite name="TC_CheckOut.spec.js" timestamp="2024-07-28T00:35:21.030Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="12.141" errors="0">
+<testcase name="Login as a standard user to complete the checkout workflow › Login to App as a standard user" classname="TC_CheckOut.spec.js" time="12.141">
+</testcase>
+</testsuite>
+<testsuite name="TC_CheckOut.spec.js" timestamp="2024-07-28T00:35:21.030Z" hostname="Safari" tests="1" failures="0" skipped="0" time="7.144" errors="0">
+<testcase name="Login as a standard user to complete the checkout workflow › Login to App as a standard user" classname="TC_CheckOut.spec.js" time="7.144">
+</testcase>
+</testsuite>
+<testsuite name="TC_CheckOut.spec.js" timestamp="2024-07-28T00:35:21.030Z" hostname="Edge" tests="1" failures="1" skipped="0" time="0.011" errors="0">
+<testcase name="Login as a standard user to complete the checkout workflow › Login to App as a standard user" classname="TC_CheckOut.spec.js" time="0.011">
+<failure message="TC_CheckOut.spec.js:47:6 Login to App as a standard user" type="FAILURE">
+<![CDATA[  [Edge] › TC_CheckOut.spec.js:47:6 › Login as a standard user to complete the checkout workflow › Login to App as a standard user 
+
+    Error: browserType.launch: Chromium distribution 'msedge' is not found at /Applications/Microsoft Edge.app/Contents/MacOS/Microsoft Edge
+    Run "npx playwright install msedge"
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/TC_CheckOut-Login-as-a-sta-a5d83-n-to-App-as-a-standard-user-Edge/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/TC_CheckOut-Login-as-a-sta-a5d83-n-to-App-as-a-standard-user-Edge/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/TC_CheckOut-Login-as-a-sta-a5d83-n-to-App-as-a-standard-user-Edge/trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
